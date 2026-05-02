@@ -1,7 +1,7 @@
 ```text
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║      T  I  M  O  F  E  Y     B  O  R  I  S  E  N  K  O                      ║
+║      T  I  M  O  F  E  Y     B  O  R  I  S  E  N  K  O                       ║
 ║      ────────────────────────────────────────────────                        ║
 ║      data scientist · recommender systems · sequence models                  ║
 ║                                                                              ║
