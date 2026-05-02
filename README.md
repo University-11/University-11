@@ -31,12 +31,6 @@ $ whoami
 │   ─────────────────                                                           │
 │   hyperbolic geometry · streaming personalization · cover-tree retrieval      │
 │                                                                               │
-│   A recsys kernel that treats users as trajectories on a Poincaré ball,       │
-│   and splits "no interaction" into "exposed-but-rejected" vs                  │
-│   "epistemically unknown". Online updates. No full retrain.                   │
-│                                                                               │
-│       d_c(x, y) = (2/√c) · artanh( √c · ‖(−x) ⊕_c y‖ )                        │
-│                                                                               │
 │   reference dataset .... MovieLens-1M                                         │
 │   stack ................ pure python (ref) · c++17 (core)                     │
 │                                                                               │
@@ -50,12 +44,6 @@ $ whoami
 │   ────────────────────────────                                                │
 │   linear-time scan · sparse associative memory · information-gain writes      │
 │                                                                               │
-│   A sequence core that splits long context into a stable spectral state       │
-│   plus a small, event-triggered memory. No KV cache. No materialised          │
-│   attention matrix. Memory writes only when description length drops.         │
-│                                                                               │
-│       x_{t+1}^(j) = λ_{t,j} · R(ω_j) · x_t^(j) + B_j · u_t                    │
-│                                                                               │
 │   reference datasets ... TinyStories (byte-level) · CIFAR-10 (patch stream)   │
 │   stack ................ pure python · c++17 · int8 weights                   │
 │                                                                               │
@@ -68,13 +56,6 @@ $ whoami
 │   SHEAF ENERGY KERNEL                                                         │
 │   ───────────────────                                                         │
 │   sparse constraint fields · equilibrium propagation · intrinsic auditing     │
-│                                                                               │
-│   Predictions as fixed points of a sparse local-energy system: each patch     │
-│   / item / token is a stalk; restriction maps live on edges; the forward      │
-│   pass is coordinate descent to a free equilibrium. Every prediction          │
-│   decomposes into local violations you can actually read.                     │
-│                                                                               │
-│       E(h;θ) = Σ_v ‖W_v x_v − h_v‖² + Σ_{(u,v)} ‖R_{e,u} h_u − R_{e,v} h_v‖²  │
 │                                                                               │
 │   reference datasets ... CIFAR-10 (patch graph) · MovieLens-1M (bipartite)    │
 │   stack ................ pure python · c++17 · CSR sparse                     │
