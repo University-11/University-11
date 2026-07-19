@@ -11,10 +11,8 @@
 
 ```text
 $ whoami
-> timofey · @University-11 · "timmy university"
-> writes the math first, then the code that obeys it
-> pure python as reference, c++17 when the shape is settled
-> no autograd until the math has earned it
+> timofey · @University-11
+> python as reference, c++17 when i want
 ```
 
 ---
@@ -95,5 +93,3 @@ $ ./contact
 ```
 
 ---
-
-> *"the next primitive is logic, not flops."*
